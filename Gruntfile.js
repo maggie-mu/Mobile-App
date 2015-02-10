@@ -20,6 +20,7 @@ module.exports = function(grunt) {
             },
             unit: {
                 runnerPort: 9999,
+                singleRun: false,
                 browsers: ['Chrome']
             },
             continuous: {
